@@ -1,0 +1,186 @@
+/* @import url('reset.css'); */
+
+body{
+    font-family: Verdana;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+:root {
+    --main-color: #2EBD27;
+    --second-color: #DC493A;
+    --text-color: #2D3142;
+}
+
+.top{
+    background-image: url(../img/Login_bn.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: 50% 20%;
+    background-size: cover;
+
+    
+}
+
+.top h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--text-color);
+    text-align: center;
+    padding-top: 200px;
+}
+
+.main{
+    max-width: 1200px;
+    padding: 40px;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.main h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* ---- info ---- */
+.line{
+    display: block;
+	width: 280px;
+	height: 3px;
+	background-color: var(--second-color);
+	margin: 0 auto;
+    margin-top: 20px;
+}
+
+.main ul{
+    outline: 4px solid var(--main-color);
+    width: 80%;
+    margin: 80px auto 0;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main li{
+    width: 80%;
+    /* outline: 1px solid red; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.main li p{
+    color: var(--text-color);
+	font-size: 24px;
+    font-weight: 600;
+}
+
+.main span{
+    color: var(--text-color);
+    font-size: 16px;
+    
+}
+
+/* ---------------- input form --------------- */
+
+.account{
+    width: 750px;
+	height: 60px;
+	border: 1px solid #56D94F;
+    border-radius: 10px;
+	padding-left: 8px;
+	outline: 0;
+    
+}
+
+.password{
+    width: 750px;
+	height: 60px;
+	border: 1px solid #56D94F;
+    border-radius: 10px;
+	padding-left: 8px;
+	outline: 0;
+}
+
+input::placeholder{
+    font-size: 20px;
+    
+}
+
+.main li:nth-child(3){
+    margin-bottom: 80px;
+}
+
+/* text:focus{
+    background-color: #C0F5BD;
+} */
+
+/* .main[type=checkbox]{
+    border: 1px solid #56D94F;
+} */
+
+.send{
+    display: block;
+	width: 500px;
+	height: 60px;
+	background-color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+	color: white;
+    border: 0;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+.main a{
+    display: block;
+    color: #32364a;
+    text-align: center;
+}
+
+.bottom_line{
+    display: block;
+	width: 720px;
+	height: 3px;
+	background-color: var(--main-color);
+	margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.register_text{
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 40px;
+}
+
+a.register{
+    display: block;
+    width: 500px;
+	height: 60px;
+    text-decoration: none;
+    background-color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+	color: white;
+    border-radius: 10px;
+    margin: 40px auto;
+    line-height: 60px;
+}
+
+.main a:hover{
+    color: var(--main-color);
+}
+
+a.register:hover{
+    background-color: #219E1B;
+}
+
+.send:hover{
+    background-color: #219E1B;
+}
+

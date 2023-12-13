@@ -1,0 +1,104 @@
+/* @import url('reset.css'); */
+
+.top.gv60 {
+    background-image: url(../img/gv60_bn.jpeg);
+    display: flex;
+    height: 500px;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 8%;
+}
+
+.top.hondafit {
+    background-image: url(../img/hondafit_bn.jpeg);
+    display: flex;
+    height: 500px;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 8%;
+    opacity: 80%;
+}
+
+.top.prius {
+    background-image: url(../img/prius_bn.png);
+    display: flex;
+    height: 500px;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 8%;
+    opacity: 80%;
+}
+
+.top.gv60 h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.top.gv60 h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.top h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.top h2 {
+    font-size: 32px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+
+.wrapper-car {
+    margin: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section img {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-bottom: 5%;
+}
+
+.left-desc{
+    display: flex;
+    width: 60%;
+    padding-right: 5%;
+    justify-content: space-between;
+    line-height: 60px;
+    font-size: 24px;
+}
+
+.right-desc{
+    display: flex;
+    width: 60%;
+    padding-left: 5%;
+    justify-content: space-between;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.wrapper-car.reservation{
+    justify-content: center;
+}

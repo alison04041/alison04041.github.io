@@ -1,0 +1,36 @@
+.top.orderhist {
+    background-image: url(../img/car_traveler.jpeg);
+    display: flex;
+    height: 500px;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 8%;
+    opacity: 80%;
+}
+
+
+.order{
+    display: inline-flex;
+    background-color: #BBBBBB30;
+    margin: 2% 3% 3% 3%;
+    border-radius: 10px;
+}
+
+.order_img{
+    margin: 5% 3% 5% 5%;
+    width: 30%;
+}
+
+.order_img img{
+    width: 100%;
+}
+
+.order_detail{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin: 2% 0% 5% 0%;
+    line-height: 36px;
+    font-size: 18px;
+}
