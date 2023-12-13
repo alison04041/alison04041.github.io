@@ -422,6 +422,7 @@ li span{
     width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .news_btn a{
@@ -431,6 +432,7 @@ li span{
     color: var(--text-color);
     text-align: right;
     transition: .3s;
+    
 }
 
 .news_btn a:hover{
